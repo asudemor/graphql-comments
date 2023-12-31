@@ -1,0 +1,22 @@
+query users{
+  users{
+    id
+    fullName
+  }
+}
+
+query posts{
+  posts{
+    id
+    title
+    user_id
+  }
+}
+
+query comments{
+  comments{
+    id
+    text
+    post_id
+  }
+}
